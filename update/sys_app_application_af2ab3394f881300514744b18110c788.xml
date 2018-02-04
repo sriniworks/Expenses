@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Expenses</name>
+        <order/>
+        <roles>x_181476_expenses.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-04 03:07:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af2ab3394f881300514744b18110c788</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Expenses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expenses" source="x_181476_expenses">a32a73f54f881300514744b18110c7f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Expenses">a32a73f54f881300514744b18110c7f3</sys_scope>
+        <sys_update_name>sys_app_application_af2ab3394f881300514744b18110c788</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-04 03:07:26</sys_updated_on>
+        <title>Expenses</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

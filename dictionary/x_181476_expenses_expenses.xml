@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Expenses" max_length="40" name="x_181476_expenses_expenses" type="collection">
+        <element choice="1" label="Expense Type" max_length="40" name="expense_type" type="choice">
+            <choice>
+                <element label="Marketing" sequence="100" value="Marketing"/>
+                <element label="Travel" sequence="200" value="Travel"/>
+                <element label="Advertisement" sequence="300" value="Advertisement"/>
+                <element label="Employee" sequence="400" value="Employee"/>
+                <element label="Customer" sequence="500" value="Customer"/>
+                <element label="VIP" sequence="600" value="VIP"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Normal" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element label="Normal" sequence="100" value="Normal"/>
+                <element label="Urgent" sequence="200" value="Urgent"/>
+                <element label="VIP" sequence="300" value="VIP"/>
+            </choice>
+        </element>
+        <element choice="3" default="Submitted" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Submitted" sequence="100" value="Submitted"/>
+                <element label="Pending Approval" sequence="200" value="Pending Approval"/>
+                <element label="Approved" sequence="300" value="Approved"/>
+                <element label="Closed" sequence="400" value="Closed"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>
