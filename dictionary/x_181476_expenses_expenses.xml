@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Expenses" max_length="40" name="x_181476_expenses_expenses" type="collection">
+        <element label="Activity Log" max_length="4000" name="activity_log" type="journal"/>
+        <element label="Amount" max_length="40" name="amount" type="currency"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Created for" max_length="32" name="created_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" label="Expense Type" max_length="40" name="expense_type" type="choice">
             <choice>
                 <element label="Marketing" sequence="100" value="Marketing"/>
@@ -28,5 +31,8 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="created_for"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_181476_expenses_expenses</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>New Expense Created</p>
+<p>&nbsp;</p>
+<p>Number: ${number}</p>
+<p>Priority: ${priority}</p>
+<p>Expense Type: ${expense_type}</p>
+<p>Amount: ${amount}</p>
+<p>&nbsp;</p>
+<p>Activity Log: ${activity_log}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Expense created</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>created_for</recipient_fields>
+        <recipient_groups name="Expense Approver Group">8e362b824f8c1300514744b18110c728</recipient_groups>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Expense Submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-04 10:57:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4315e1064f0c1300514744b18110c719</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Expense created</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expenses" source="x_181476_expenses">a32a73f54f881300514744b18110c7f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Expenses">a32a73f54f881300514744b18110c7f3</sys_scope>
+        <sys_update_name>sysevent_email_action_4315e1064f0c1300514744b18110c719</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-04 20:36:05</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="New Expense Submitted">777525064f0c1300514744b18110c780</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

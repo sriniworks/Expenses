@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_181476_expenses_expenses</collection>
+        <message/>
+        <message_html><![CDATA[<p>Hello, Your expense is created</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Expense Submitted</name>
+        <sms_alternate/>
+        <subject>New Expense Submitted</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-04 10:57:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>777525064f0c1300514744b18110c780</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Expense Submitted</sys_name>
+        <sys_package display_value="Expenses" source="x_181476_expenses">a32a73f54f881300514744b18110c7f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Expenses">a32a73f54f881300514744b18110c7f3</sys_scope>
+        <sys_update_name>sysevent_email_template_777525064f0c1300514744b18110c780</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-04 10:57:08</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
